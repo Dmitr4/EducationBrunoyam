@@ -28,7 +28,10 @@ else:
 password = input('Введите пароль: ')
 while True:
     if len(password) > 8 and (password.lower() != password) and (password.upper() != password):
-        print('Пароль принят')
+        print('Пароль одобрен!')
         break
 
     password = input('Введите пароль: ')
+
+
+
